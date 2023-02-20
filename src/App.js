@@ -1,10 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import './App'
+import Intro from './pages/intro';
 
 function App() {
   return (
     <div className="App">
-      Portfolio
+     <Intro />
     </div>
   );
 }
