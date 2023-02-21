@@ -6,7 +6,7 @@
     display: grid;
     /* flex-wrap: wrap; */
     grid-template-columns: 65% 35%;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: 80% 20%;
     /* flex-direction: column; */
     /* box-sizing: border-box; */
     padding: 35px;
@@ -29,15 +29,15 @@
 
 }
 #name h3{
-    /* display: inline-flex; */
+    display: inline-grid;
     /* border: solid white 2px; */
     max-width: 295px;
     color: aliceblue;
     max-height: 50px;
     border-radius: 36%;
     padding: 4px;
-    background-color: rgb(97, 92, 92);
+    background-color: rgb(109, 96, 96);
     grid-row-start: 2;
-    margin-top: 42px;
+    
 
 }
