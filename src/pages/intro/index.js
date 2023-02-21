@@ -6,15 +6,16 @@ import './index.css'
 const Intro = () => {
   return (
     <div className='container'>
-        <div id="welcome" style={{ fontFamily: 'Montaga'}}>Welcome to My Software Engineering Portfolio
+        <div className='grid-column-spread2' id="welcome" style={{ fontFamily: 'Montaga'}}>
+          Welcome to My Software Engineering Portfolio
     </div>
     <div id="name" style={{ fontFamily: 'Montaga'}}>
-    <h3>Brandon Smith / Software Engineer</h3>
+    Brandon Smith / Software Engineer
     </div>  
       <div id='profile_pic'>
       <PictureFrame imageUrl={myImage} altText="profile_pic"/>
       </div>
-      
+      <a id='contact' href="mailto:bsmith86.dev@gmail.com?subject=HTML link">Work with me today</a>
     </div>
   )
 }
