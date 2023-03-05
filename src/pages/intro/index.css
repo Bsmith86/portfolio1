@@ -39,13 +39,14 @@
     display: inline-grid;
     border: solid white 3px;
     color: aliceblue;
-    max-width: fit-content;
+    max-width: fit-content; 
     border-radius: 25%;
     padding: 20px;
     grid-row-start: 4;
     grid-column-start: 1;
     align-self: center;
     margin-left: 30px;
+    margin-bottom: 400px;
   
 }
 #contact {
