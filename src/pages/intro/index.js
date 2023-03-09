@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import Home from '../../images/Home.png'
+import Home from '../../images/home.png'
 
 
 const Intro = () => {

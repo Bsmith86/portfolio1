@@ -1,6 +1,6 @@
 import React from 'react'
-import movie from './../../images/Movie_APP.JPG'
-import pcss from './../../images/PCSS.png'
+import movie from '../../images/movie.jpg'
+import pcss from '../../images/pcss.png'
 import Screenshot from '../screenshots'
 import './index.css'
 

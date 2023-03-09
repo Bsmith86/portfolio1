@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import book from '../../images/About.png'
+import book from '../../images/about.png'
 
 const About = () => {
   return (
