@@ -1,0 +1,27 @@
+.con_container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 30rem auto 10rem;
+    grid-template-areas: '. head . . .' '. main main main .' ;
+    margin-top: 120px;
+    padding-top: 200px;
+}
+
+#con_head {
+    grid-area: head;
+    font-family: 'Lobster', cursive;
+    font-size:95px;
+    justify-self: start;
+    
+}
+#con_points {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'loc email cell';
+
+}
+.contacts_label {
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+}

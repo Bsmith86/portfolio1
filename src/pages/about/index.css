@@ -1,0 +1,22 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 8fr 8fr 1fr;
+    grid-template-areas: '. head main .';
+}
+#who {
+    font-family: 'Lobster', cursive;
+    font-size:95px;
+}
+#about_head {
+    grid-area: head;
+    display: grid;
+    margin-top: 220px;
+    grid-template-rows: 17rem 700px;
+}
+#who_txt {
+    font-size: 30px;
+}
+#about_img {
+    grid-area: main;
+    justify-self: center;
+}

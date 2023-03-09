@@ -4,8 +4,9 @@ import './index.css'
 const Projects = () => {
   return (
     <div className='projects'>
-      <header><h1>Projects</h1></header>
-      <ScreenshotsRow />
+      <div id='title'>Projects</div>
+      <div id='screenShot'><ScreenshotsRow /></div>
+      
     </div>
   )
 }

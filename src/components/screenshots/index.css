@@ -1,7 +1,9 @@
 .screenshot {
     display: flex;
     flex-direction: column;
+    padding: 5px;
     align-items: center;
+    border: 8px solid #c5b995 ;
   }
   
   .screenshot img {
@@ -9,7 +11,8 @@
   }
   
   .screenshot .description {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-size: 20px;
     text-align: center;
+    
   }

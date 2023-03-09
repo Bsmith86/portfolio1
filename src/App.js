@@ -2,8 +2,9 @@
 import './App'
 import Intro from './pages/intro';
 import Education from './pages/education';
-import Gallery from './pages/gallery';
 import Projects from './pages/projects';
+import About from './pages/about';
+import Contact from './pages/contact';
 
 function App() {
 let x = 5;
@@ -12,9 +13,10 @@ let x = 5;
   return (
     <div className="App">
      <Intro />
+     <About />
      <Education />
-     {/* <Gallery /> */}
      <Projects />
+     <Contact />
     </div>
   );
 }

@@ -1,47 +1,55 @@
 .education_con {
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr; 
+    grid-template-columns: 1fr 10fr 1fr; 
     grid-template-rows:20em 90vh ;
-    grid-template-areas:'. . education'
+    grid-template-areas:'. header .'
     '.main.' ;
 
 }
 #education {
     /* display: inline-grid; */
     grid-column-start: 3;
-    max-height: 2000px; 
+    max-height: 200px; 
     font-size: 78px;
     grid-area: education;
+    
 }
-.school {
-   display: grid;
-   grid-template-columns: 5fr 2fr; 
-   grid-template-rows: 10em auto;
-   grid-area: 'institute graduation'
-   'bullets bullets';    
-   padding-top: 5px;
-   padding-bottom: 5px;
-}
-/* .institute {
-    font-size: 25px;
 
-} */
 .graduation {
     grid-column-start: 2;
 
 }
 .bullets {
     grid-column-start: 1;
-    font-size: 20px;
+    font-size: 25px;
+    list-style-type: disc;
 }
 .education_list {
     grid-column-start: 1 span 2;
+    
 }
 
 .span2 {
     column-span: 2;
-}
+} */
 
 main {
     grid-area: main;
+    
+}
+
+header {
+    grid-area: header;
+    font-family: 'Lobster', cursive;
+    font-size: 110px;
+}
+
+.education{
+    list-style-image: url(../../images/down-right.svg);
+    font-size: 30px;
+    
+}
+
+.background {
+    padding-left: 300px;
 }
