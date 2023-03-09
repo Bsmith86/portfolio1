@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import book from '../../images/about.png'
+// import book from '../../images/about.png'
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
             driven by learning new technologies and incorporating them in new projects. 
         </span>
       </div>
-      <div id='about_img'> <img src={book} alt='about pic' /></div>  
+      {/* <div id='about_img'> <img src={book} alt='about pic' /></div>   */}
 
     </div>
   )
