@@ -18,6 +18,12 @@ const Contact = () => {
             <span>(605) 370-4226</span>
         </div>
         
+        <div className="social">
+            <a href="https://github.com/Bsmith86"><i className="fa fa-github" aria-hidden="true"></i>Git Hub </a>
+            <></>
+            <a href="https://www.linkedin.com/in/brandon-smith-403b5b225/"> <i className="fa fa-linkedin-square" aria-hidden="true">Linked-In</i></a>
+        </div>
+
       </div>
     </div>
   )
