@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import Home from '../../images/home.png'
+import profile from '../../images/profile.png'
 
 
 const Intro = () => {
@@ -19,7 +19,7 @@ const Intro = () => {
 
       <main>
       <div id='profile_pic'>
-        <img src={Home} alt='Profile Pic' />
+        <img src={profile} alt='Profile Pic' />
       </div>
       <i class="fa-thin fa-arrow-down-right"></i> <a id='contact' href="mailto:bsmith86.dev@gmail.com?subject=HTML link">Work with me today</a>  
       </main>  
