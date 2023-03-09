@@ -1,7 +1,0 @@
-.gallery {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10em auto ;
-    /* grid-area: 'header header header'
-    'main main main'; */
-}

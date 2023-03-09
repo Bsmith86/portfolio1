@@ -7,8 +7,6 @@ import About from './pages/about';
 import Contact from './pages/contact';
 
 function App() {
-let x = 5;
-
 
   return (
     <div className="App">
