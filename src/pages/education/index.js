@@ -8,11 +8,11 @@ const Education = () => {
         <main>
           <ul className='background'>
               <li className='education'>
-                  Education
+                  Experience
                   <ul className='bullets'>
-                      <li>Software Engineering - Per Scholas, 3/2023</li>
-                      <li>Computer Programming - freeCodeCamp, 2022</li>
-                      <li>Full Stack Web Development - Clarusway, 2022</li>
+                      <li>Software Engineering - Per Scholas, 11/22 - 03/23</li>
+                      <li>Backend Developer - Krier & Blain, 02/19 - 07/22</li>
+                      <li>IT Manager - Arthritis Care & Diagnostic Center, 01/11 - 03/22</li>
                   </ul>
               </li>
 
@@ -20,7 +20,7 @@ const Education = () => {
                 Skills
 
                 <ul className='bullets'>
-                      <li>Technical: <i class="fa-brands fa-square-js"></i>, <i class="fa-brands fa-react"></i>React, <i class="fa-brands fa-html5"></i>HTML, <i class="fa-brands fa-css3"></i>CSS, <i class="fa-brands fa-git"></i> GIT, <i class="fa-brands fa-python"></i>Python, <i class="fa-brands fa-linux"></i>Linux, <i class="fa-brands fa-node-js"></i>, MongoDB, SQL, AWS, Java, Drupal, Docker  </li>
+                      <li>Technical: <i class="fa-brands fa-square-js"></i>, <i class="fa-brands fa-react"></i>React, <i class="fa-brands fa-html5"></i>HTML, <i class="fa-brands fa-css3"></i>CSS, <i class="fa-brands fa-git"></i> GIT, <i class="fa-brands fa-python"></i>Python, <i class="fa-brands fa-linux"></i>Linux, <i class="fa-brands fa-node-js"></i>, MongoDB, SQL, AWS, Java, Drupal, Docker, PHP, Laravel  </li>
                       <li>Soft: Self motivated, Interpersonal Skills, Communication, Organization, Time Management, Teamwork, Detail oriented  </li>
                   </ul>
               </li>
